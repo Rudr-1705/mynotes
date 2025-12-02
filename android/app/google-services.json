@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1017798305026",
+    "project_id": "mynotes-rudr",
+    "storage_bucket": "mynotes-rudr.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017798305026:android:847aea0ca13c70c62c0e1b",
+        "android_client_info": {
+          "package_name": "com.myDomain.mynotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwSlnxpK0QhFX6JrVCgpktmV8rT8tevkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
