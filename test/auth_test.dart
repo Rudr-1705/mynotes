@@ -95,7 +95,6 @@ class MockAuthProvider implements AuthProvider {
   }
 
   @override
-  // TODO: implement currentUser
   AuthUser? get currentUser => _user;
 
   @override
@@ -138,5 +137,11 @@ class MockAuthProvider implements AuthProvider {
       id: 'myid',
     );
     _user = user;
+  }
+
+  @override
+  Future<void> sendPasswordReset({required String toEmail}) {
+    if (!isInitialized) throw NotInitializedException();
+    throw UnimplementedError();
   }
 }
